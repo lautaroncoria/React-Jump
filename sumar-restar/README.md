@@ -1,11 +1,11 @@
-<h1>Sumar y restar</h1>
-<h4>
+# Sumar y restar
 
-### OBJETIVO
+### Objetivo
+
 - Modificar el estado.
 - Modificar estado del padre por medio de funciones mandadas como props.
 
-## Consigna
+### Consigna
 
 1. Comenzar nuevo proyecto de React con el comando `npx create-react-app sumar-restar`.
 
@@ -13,5 +13,6 @@
 
 3. Cada que demos click al botón de sumar debe sumar el estado y cada que demos click al botón de restar debe restar el mismo estado
 
-4. Resultado:
-<img src="../IMG/resultado.png" width="500px"></h4>
+Resultado:
+
+<img src="./resultado.png">
