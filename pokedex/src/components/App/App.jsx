@@ -42,7 +42,7 @@ const App = () => {
             type={pokemonStats.types[0].type.name}
           />)}
       </div>
-      <button className='load-more' onClick={() => getAllPokemons()}>Load more</button>
+      <Boton className='load-more' onClick={() => getAllPokemons()}>Load more</Boton>
     </div>
   );
 }
