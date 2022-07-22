@@ -1,0 +1,29 @@
+@mixin boton-general-styles {
+  font-size: 17px;
+  font-weight: map-get($font-weights, bold);
+  border: 2px solid $main-color;
+  border-radius: 20px;
+  color: $white-color;
+  background-color: $main-color;
+}
+
+.boton-tweet-small {
+  @include boton-general-styles;
+  padding: 8px 20px;
+}
+
+.boton-tweet-large {
+  @include boton-general-styles;
+  padding: 14px 93px;
+  // Sobreescribo valores de "Boton-general-styles"
+  border-radius: 25px;
+}
+
+.boton-follow {
+  @include boton-general-styles;
+  padding: 8px 20px;
+  // Sobreescribo valores de "Boton-general-styles"
+  border: 2px solid $black-color;
+  color: $white-color;
+  background-color: $black-color;
+}

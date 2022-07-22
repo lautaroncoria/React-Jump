@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "name": "",
+    "icon": "twitter"
+  },
+  {
+    "id": "2",
+    "name": "Home",
+    "icon": "home"
+  },
+  {
+    "id": "3",
+    "name": "Explore",
+    "icon": "hashtag"
+  },
+  {
+    "id": "4",
+    "name": "Notifications",
+    "icon": "bell"
+  },
+  {
+    "id": "5",
+    "name": "Messages",
+    "icon": "mail"
+  },
+  {
+    "id": "6",
+    "name": "Bookmarks",
+    "icon": "saved"
+  },
+  {
+    "id": "7",
+    "name": "Lists",
+    "icon": "doc"
+  },
+  {
+    "id": "8",
+    "name": "Profile",
+    "icon": "profile"
+  },
+  {
+    "id": "9",
+    "name": "More",
+    "icon": "dots"
+  }
+]

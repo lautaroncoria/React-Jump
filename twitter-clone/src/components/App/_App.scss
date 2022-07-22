@@ -1,0 +1,19 @@
+$main-color: #01a3f4;
+$white-color: #fff;
+$gray-color: #9eabae;
+$black-color: #0F1419;
+$font-weights: (
+  "thin": 300,
+  "regular": 400,
+  "medium": 500,
+  "bold": 700
+);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}

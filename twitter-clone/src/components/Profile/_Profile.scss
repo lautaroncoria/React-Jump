@@ -1,0 +1,25 @@
+.Profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  width: 251px;
+
+  #{&}__name {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  #{&}__publicname {
+    font-size: 15px;
+    font-weight: map-get($font-weights, bold);
+    color: $black-color;
+  }
+
+  #{&}__username {
+    font-size: 15px;
+    font-weight: map-get($font-weights, thin);
+    color: $gray-color;
+  }
+}
