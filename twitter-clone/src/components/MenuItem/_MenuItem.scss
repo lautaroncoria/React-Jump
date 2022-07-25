@@ -1,0 +1,8 @@
+.MenuItem {
+  list-style: none;
+
+  #{&}__img {
+    width: 26.25px;
+    height: 26.25px;
+  }
+}

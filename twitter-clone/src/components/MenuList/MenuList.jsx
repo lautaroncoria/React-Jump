@@ -5,9 +5,9 @@ function MenuList({ arrIcon }) {
   return(
     <ul>
       {
-        arrIcon.map( iconObj => {
+        arrIcon.map( iconObj => (
           <MenuItem key={iconObj.id} iconObj={iconObj} />
-        })
+        ))
       }
     </ul>
   );
